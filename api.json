@@ -1,0 +1,194 @@
+[
+  {
+    "method": "patch", 
+    "endpoint": "hx_RiVkuLJc/department/{id}/", 
+    "params": {}, 
+    "name": "department_partial_update", 
+    "desc": "部门表"
+  }, 
+  {
+    "method": "get", 
+    "endpoint": "hx_RiVkuLJc/department/{id}/", 
+    "params": {}, 
+    "name": "department_read", 
+    "desc": "部门表"
+  }, 
+  {
+    "method": "post", 
+    "endpoint": "hx_RiVkuLJc/department/", 
+    "params": {
+      "name": "部门名称"
+    }, 
+    "name": "department_create", 
+    "desc": "部门表"
+  }, 
+  {
+    "method": "get", 
+    "endpoint": "hx_RiVkuLJc/department/", 
+    "params": {}, 
+    "name": "department_list", 
+    "desc": "部门表"
+  }, 
+  {
+    "method": "put", 
+    "endpoint": "hx_RiVkuLJc/department/{id}/", 
+    "params": {}, 
+    "name": "department_update", 
+    "desc": "部门表"
+  }, 
+  {
+    "method": "delete", 
+    "endpoint": "hx_RiVkuLJc/department/{id}/", 
+    "params": {}, 
+    "name": "department_delete", 
+    "desc": "部门表"
+  }, 
+  {
+    "method": "patch", 
+    "endpoint": "hx_RiVkuLJc/position/{id}/", 
+    "params": {}, 
+    "name": "position_partial_update", 
+    "desc": "职位表"
+  }, 
+  {
+    "method": "get", 
+    "endpoint": "hx_RiVkuLJc/position/{id}/", 
+    "params": {}, 
+    "name": "position_read", 
+    "desc": "职位表"
+  }, 
+  {
+    "method": "post", 
+    "endpoint": "hx_RiVkuLJc/position/", 
+    "params": {
+      "name": "职位名称"
+    }, 
+    "name": "position_create", 
+    "desc": "职位表"
+  }, 
+  {
+    "method": "get", 
+    "endpoint": "hx_RiVkuLJc/position/", 
+    "params": {}, 
+    "name": "position_list", 
+    "desc": "职位表"
+  }, 
+  {
+    "method": "put", 
+    "endpoint": "hx_RiVkuLJc/position/{id}/", 
+    "params": {}, 
+    "name": "position_update", 
+    "desc": "职位表"
+  }, 
+  {
+    "method": "delete", 
+    "endpoint": "hx_RiVkuLJc/position/{id}/", 
+    "params": {}, 
+    "name": "position_delete", 
+    "desc": "职位表"
+  }, 
+  {
+    "method": "patch", 
+    "endpoint": "hx_RiVkuLJc/user/{id}/", 
+    "params": {}, 
+    "name": "user_partial_update", 
+    "desc": "用户表"
+  }, 
+  {
+    "method": "get", 
+    "endpoint": "hx_RiVkuLJc/user/{id}/", 
+    "params": {}, 
+    "name": "user_read", 
+    "desc": "用户表"
+  }, 
+  {
+    "method": "post", 
+    "endpoint": "hx_RiVkuLJc/user/", 
+    "params": {
+      "department": "部门", 
+      "phone": "电话", 
+      "name": "姓名", 
+      "position": "职位"
+    }, 
+    "name": "user_create", 
+    "desc": "用户表"
+  }, 
+  {
+    "method": "get", 
+    "endpoint": "hx_RiVkuLJc/user/", 
+    "params": {}, 
+    "name": "user_list", 
+    "desc": "用户表"
+  }, 
+  {
+    "method": "put", 
+    "endpoint": "hx_RiVkuLJc/user/{id}/", 
+    "params": {}, 
+    "name": "user_update", 
+    "desc": "用户表"
+  }, 
+  {
+    "method": "delete", 
+    "endpoint": "hx_RiVkuLJc/user/{id}/", 
+    "params": {}, 
+    "name": "user_delete", 
+    "desc": "用户表"
+  }, 
+  {
+    "method": "patch", 
+    "endpoint": "hx_RiVkuLJc/demand/{id}/", 
+    "params": {}, 
+    "name": "demand_partial_update", 
+    "desc": "需求表"
+  }, 
+  {
+    "method": "get", 
+    "endpoint": "hx_RiVkuLJc/demand/{id}/", 
+    "params": {}, 
+    "name": "demand_read", 
+    "desc": "需求表"
+  }, 
+  {
+    "method": "post", 
+    "endpoint": "hx_RiVkuLJc/demand/", 
+    "params": {
+      "status": "需求状态", 
+      "liability": "负责人", 
+      "updateTime": "更新时间", 
+      "productLine": "需求生产线", 
+      "title": "需求标题", 
+      "projectName": "项目名称", 
+      "describe": "需求描述", 
+      "demandSource": "需求来源", 
+      "priority": "优先级", 
+      "model": "需求模式", 
+      "endTime": "截止时间", 
+      "type": "需求类型", 
+      "createTime": "创建时间", 
+      "tranceabilitySource": "追溯来源"
+    }, 
+    "name": "demand_create", 
+    "desc": "需求表"
+  }, 
+  {
+    "method": "get", 
+    "endpoint": "hx_RiVkuLJc/demand/", 
+    "params": {}, 
+    "name": "demand_list", 
+    "desc": "需求表"
+  }, 
+  {
+    "method": "put", 
+    "endpoint": "hx_RiVkuLJc/demand/{id}/", 
+    "params": {}, 
+    "name": "demand_update", 
+    "desc": "需求表"
+  }, 
+  {
+    "method": "delete", 
+    "endpoint": "hx_RiVkuLJc/demand/{id}/", 
+    "params": {}, 
+    "name": "demand_delete", 
+    "desc": "需求表"
+  }
+]

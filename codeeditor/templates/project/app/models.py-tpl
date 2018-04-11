@@ -1,0 +1,30 @@
+# -*- coding: utf-8 -*-
+from django.db import models
+from django.contrib.auth.models import User,AbstractUser
+{% load codeeditor_tags %}
+# {{ table.name }} Model
+{% for name,fields in tables.items %}
+{% if name == "user" %}
+class {{ name }}Model(AbstractUser):
+    '''
+    {{ name }} Model
+    '''
+{% for field_str in fields %}
+    {{ field_str|safe }}
+{% endfor %}
+{% else %}
+class {{ name }}Model(models.Model):
+    '''
+    {{ name }} Model
+    '''
+{% for field_str in fields %}
+    {{ field_str|safe }}
+{% endfor %}
+{% endif %}
+    class Meta:
+        permissions = (
+            ('view_{{ name }}model', 'View {{ name }}Model'),
+        )
+{% endfor %}
+class FileModel(models.Model):
+    file = models.FileField(verbose_name=u"文件", help_text=u"", upload_to="file")
